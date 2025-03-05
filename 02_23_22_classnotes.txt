@@ -1,0 +1,3 @@
+Filtering
+
+Get-service |Where{$_.Status -eq "running" -and $_.DisplayName -like "Adobe*"}
